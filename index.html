@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<body align="center">
+    <h2><u>Safari/WebKit iframe Übersetzungstestseite</u></h2>
+
+    <p>In vielen Städten steigen die Mieten seit Jahren rasant an. Kommunalpolitikerinnen und -politiker setzen deshalb verstärkt auf das sogenannte Vorkaufsrecht. Es ermöglicht einer Gemeinde, Investoren ein Haus oder Grundstücke in Gebieten mit angespannten Wohnungsmärkten vor der Nase wegzukaufen. Denn dann greift die übliche Methode vieler Investoren nicht mehr: modernisieren und dann die Miete kräftig erhöhen. Die ursprünglichen Käufer können den Vorkauf nur verhindern, indem sie strenge Abwendungsvereinbarungen unterzeichnen, die insbesondere Luxussanierungen und starke Mieterhöhungen ausschließen.
+    
+    Vor allem Florian Schmidt (Die Grünen), Baustadtrat im Szenekiez Friedrichshain-Kreuzberg, hat die Methode in seinem Bezirk in den vergangenen Jahren konsequent umgesetzt und damit für viel Aufsehen gesorgt. Bei rund 800 Wohnungen zog sein Bezirk nach eigenen Angaben das Vorkaufsrecht, mit dem Ziel, »die Verdrängung der Wohnbevölkerung zu vermeiden«. Die Vorkäufe sind Teil einer größeren Strategie, die kommunalen Bestände des Bezirks zu erhöhen – und damit den Anstieg der Mieten insgesamt zu bremsen.</p>
+
+    <button onclick="addCrossDomainIframe()">Add Cross Domain Iframe</button>
+
+    <script>
+        function addCrossDomainIframe() {
+            const iframe = document.createElement('iframe');
+            iframe.src = 'https://whsieh.github.io/examples/deutsch';
+            iframe.width = '100%';
+            iframe.height = '1500';
+            iframe.style="border:none;"
+            document.body.appendChild(iframe);
+        }
+    </script>
+</body>
+</html>
+
